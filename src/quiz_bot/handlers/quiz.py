@@ -33,7 +33,7 @@ async def get_question(message: types.Message, user_id: int):
     )
 
 async def handle_answer(callback: types.CallbackQuery):
-    """Обработка ответа пользователя - ИСПРАВЛЕННАЯ ВЕРСИЯ"""
+    """Обработка ответа пользователя"""
     user_id = callback.from_user.id
     
     # Получаем данные пользователя ИЗ CALLBACK
