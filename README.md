@@ -26,3 +26,4 @@ Telegram-бот для проведения квиза по программир
    pip install -r requirements.txt
 3. Запустите бота:
    python -m src.quiz_bot
+4. Найдите бота через поиск и начните квиз: @super_quiz_78_bot
